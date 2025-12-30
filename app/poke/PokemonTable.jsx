@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import PokemonDetails from "./PokemonDetails";
 
 
 const LIMIT = 10;
@@ -128,7 +129,9 @@ export default function PokemonTable() {
                     </>
                 )}
             </div>
-
+            <div className="bg-white shadow rounded-lg">
+                <PokemonDetails url={selectedUrl} />
+            </div>
 
 
         </div>
