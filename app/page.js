@@ -1,4 +1,4 @@
-import PokemonTable from "../app/poke/PokemonTable";
+import PokemonTable from "./PokemonTable";
 
 export default function PokePage() {
   return (
